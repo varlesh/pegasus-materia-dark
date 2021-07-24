@@ -9,7 +9,7 @@ Materia Dark style a default grid theme of [Pegasus](http://pegasus-frontend.org
 
 ## Installation
 
-Just [download](https://github.com/varlesh/pegasus-materia-dark/archive/master.zip) and extract it to your [theme directory](http://pegasus-frontend.org/docs/user-guide/installing-themes). You can then select the theme in the settings menu of Pegasus.
+Just [download](https://github.com/varlesh/pegasus-materia-dark/archive/refs/heads/main.zip) and extract it to your [theme directory](http://pegasus-frontend.org/docs/user-guide/installing-themes). You can then select the theme in the settings menu of Pegasus.
 
 ## License
 

@@ -17,6 +17,7 @@
 
 import QtQuick 2.0
 
+
 Item {
     property alias platformShortName: label.text
     property bool isOnTop: false
@@ -30,6 +31,7 @@ Item {
         color: "#272727"
         antialiasing: true
     }
+    
 
     Rectangle {
         width: main.height * 1.7
@@ -44,7 +46,7 @@ Item {
             id: label
             width: 0
             text: ""
-            color: "#dfdfdf"
+            color: "#575757"
             anchors {
                 left: parent.left
                 bottom: parent.bottom
@@ -54,7 +56,7 @@ Item {
             font {
                 bold: true
                 capitalization: Font.AllUppercase
-                pixelSize: vpx(16)
+                pixelSize: vpx(12)
                 family: globalFonts.condensed
             }
         }
@@ -77,7 +79,7 @@ Item {
         asynchronous: true
         opacity: parent.isOnTop ? 1.0 : 0.3
 
-        width: parent.width * 0.6
+        width: parent.width * 0.4
         height: parent.height - vpx(12)
         anchors.bottom: parent.bottom
         anchors.bottomMargin: vpx(6)
